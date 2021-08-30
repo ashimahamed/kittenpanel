@@ -1,0 +1,29 @@
+{
+    "appname": "KittenPanel",
+    "sessionsecret": "",
+    "webserver": {
+        "host": "0.0.0.0",
+        "port": 5000,
+        "debug": false,
+        "workers": 3
+    },
+    "pterodactyl": {
+        "domain": "",
+        "key": ""
+    },
+    "database": "mongodb://",
+    "external_api": {
+        "enabled": false,
+        "key": ""
+    },
+    "oauth2": {
+        "id": "",
+        "secret": "",
+        "domain": ""
+    },
+    "ip": {
+        "trustheader": false,
+        "header": "X-Forwarded-For",
+        "antialt": false
+    }
+}
